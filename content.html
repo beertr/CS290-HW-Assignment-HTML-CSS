@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>CS290 HW Assignment: HTML/CSS</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+ </head>
+ <body>
+  <table>
+   <caption>This is a table for Beaver fans.</caption>
+   <thead>
+    <tr>
+     <th>
+     <th> O
+     <th> R
+	 <th> E
+	 <th> G
+	 <th> O
+   <tfoot>
+    <tr>
+	 <td colspan="2"> OSU
+	 <td colspan="4"> Beavers
+   <tbody>
+    <tr>
+     <th> <em>S</em>
+     <td> B
+     <td> E
+	 <td> A
+     <td> V
+	 <td> S
+	<tr>
+     <th> <em>T</em>
+     <td> B
+     <td> E
+	 <td> A
+     <td> V
+	 <td> S
+	<tr>
+     <th> <em>A</em>
+     <td> B
+     <td> E
+	 <td> A
+     <td> V
+	 <td> S
+	<tr>
+     <th> <em>T</em>
+     <td> B
+     <td> E
+	 <td> A
+     <td> V
+	 <td> S
+	<tr>
+     <th> <em>E</em>
+     <td> B
+     <td> E
+	 <td> A
+     <td> V
+	 <td> S
+  </table>
+  <ul>
+   <li> Oregon
+   <li> State
+   <li> University
+  </ul>
+  <div class="outer-content">
+   <div id="inner-content"></div>
+  </div>
+  <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+    <fieldset>
+        <legend>POST Form</legend>
+        <label>Text Input:
+            <input type="text" name="text_input">
+        </label>
+		<br />
+        <label>Numerical Input:
+            <input type="number" name="numerical_input">
+        </label>
+		<br />
+		<label>Password:
+            <input type="password" name="password_input">
+        </label>
+        <br />
+        <p>Candy:
+            <br />
+            <label>
+                <input type="radio" name="candy" value="Snickers" />Snickers</label>
+			<br />
+            <label>
+                <input type="radio" name="candy" value="Skittles" />Skittles</label>
+			<br />
+            <label>
+                <input type="radio" name="candy" value="Mentos" />Mentos</label>
+        </p>
+        <input type="submit" value="Submit" />
+    </fieldset>
+  </form>
+  <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+    <fieldset>
+        <legend>GET Form</legend>
+        <label>Text Input:
+            <input type="text" name="text_input">
+        </label>
+        <br />
+        <label>Numerical Input:
+            <input type="number" name="numerical_input">
+        </label>
+        <br />
+		<label>Password:
+            <input type="password" name="password_input">
+        </label>
+        <br />
+        <p>Candy:
+            <br />
+            <label>
+                <input type="radio" name="candy" value="Snickers" />Snickers</label>
+			<br />
+            <label>
+                <input type="radio" name="candy" value="Skittles" />Skittles</label>
+			<br />
+            <label>
+                <input type="radio" name="candy" value="Mentos" />Mentos</label>
+        </p>
+        <input type="submit" value="Submit" />
+    </fieldset>
+  </form>
+ </body>
+</html>
